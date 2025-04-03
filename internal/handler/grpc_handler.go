@@ -3,9 +3,9 @@ package handler
 import (
 	"context"
 	"time"
-
-	"github.com/yourusername/user-service/internal/service"
-	"github.com/yourusername/user-service/proto"
+ 
+	"github.com/qtj4/user-service/proto"			
+	"github.com/qtj4/user-service/internal/service"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

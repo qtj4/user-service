@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/yourusername/user-service/internal/entity"
-	"github.com/yourusername/user-service/internal/service"
+	"github.com/qtj4/user-service/internal/entity"
+	"github.com/qtj4/user-service/internal/service"
 )
 
 type UserRESTHandler struct {

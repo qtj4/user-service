@@ -8,14 +8,15 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/streadway/amqp"
 	"google.golang.org/grpc"
-
-	"github.com/yourusername/user-service/config"
-	"github.com/yourusername/user-service/internal/event"
-	"github.com/yourusername/user-service/internal/handler"
-	"github.com/yourusername/user-service/internal/repository"
-	"github.com/yourusername/user-service/internal/service"
-	"github.com/yourusername/user-service/proto"
-	_ "github.com/lib/pq"
+	_ "github.com/lib/pq" 
+	
+	`github.com/qtj4/user-service/config`
+	"github.com/qtj4/user-service/internal/event"
+	"github.com/qtj4/user-service/internal/handler"
+	"github.com/qtj4/user-service/internal/repository"
+	"github.com/qtj4/user-service/internal/service"
+	"github.com/qtj4/user-service/proto"
+	
 )
 
 func main() {

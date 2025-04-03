@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-
-	"github.com/yourusername/user-service/internal/entity"
+	"time"
+	"github.com/qtj4/user-service/internal/entity"
 )
 
 type UserRepository interface {

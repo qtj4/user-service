@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/yourusername/user-service/internal/entity"
-	"github.com/yourusername/user-service/internal/event"
-	"github.com/yourusername/user-service/internal/repository"
+	"github.com/qtj4/user-service/internal/entity"
+	"github.com/qtj4/user-service/internal/event"
+	"github.com/qtj4/user-service/internal/repository"
 )
 
 type UserService interface {

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package user;
 
-option go_package = "github.com/yourusername/user-service/proto";
+option go_package = "github.com/qtj4/user-service/proto";
 
 service UserService {
     rpc GetUserById (GetUserByIdRequest) returns (GetUserByIdResponse);
